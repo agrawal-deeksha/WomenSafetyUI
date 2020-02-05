@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/swip"
+    android:background="@drawable/bg2"
+    android:padding="10dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/ic_person_white_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/ic_mail_white_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Email"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white"/>
+
+        <EditText
+            android:id="@+id/paswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/ic_lock_white_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            android:textColorHighlight="@color/white"/>
+
+        <ProgressBar
+        android:id="@+id/lodg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/sgnbtn"
+            android:background="@drawable/shapesignup"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have a account? Log in"
+            android:textAllCaps="false"
+            android:id="@+id/lgnbck"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/grdnam1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name1"
+        />
+    <EditText
+        android:id="@+id/grdcont1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contact1"
+        android:inputType="text|phone" />
+    <EditText
+        android:id="@+id/grdnam2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name2"
+        />
+    <EditText
+        android:id="@+id/grdcont2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contact2"
+        android:inputType="text|phone" />
+    <EditText
+        android:id="@+id/grdnam3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name3"
+        />
+    <EditText
+        android:id="@+id/grdcont3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contact3"
+        android:inputType="text|phone" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
